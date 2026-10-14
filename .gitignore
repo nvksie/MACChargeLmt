@@ -1,0 +1,9 @@
+AGENTS.md
+.DS_Store
+note.txt
+build/
+build.sh
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.pem

@@ -1,0 +1,902 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "%@%%" : {
+
+    },
+    "about.message" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS charging threshold tool\nProject: https://github.com/nvksie/MACChargeLmt\nMIT License"
+          }
+        }
+      }
+    },
+    "app 内存在多个 legacy daemon 安装文件" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Multiple legacy daemon installation files were found in the app"
+          }
+        }
+      }
+    },
+    "app 内缺少 chargelmtd：%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chargelmtd is missing from the app: %@"
+          }
+        }
+      }
+    },
+    "app 内缺少 legacy daemon 安装文件" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legacy daemon installation file is missing from the app"
+          }
+        }
+      }
+    },
+    "ChargeLmt 设置" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ChargeLmt Settings"
+          }
+        }
+      }
+    },
+    "service.install.explanation" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ChargeLmt needs a root background service to read battery status and write SMC charging thresholds. It registers chargelmtd as a system LaunchDaemon. macOS may ask you to approve it or enter an administrator password.\n\nYou can remove the background service later in Settings."
+          }
+        }
+      }
+    },
+    "service.uninstall.explanation" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This stops chargelmtd, restores macOS charging behavior, and deletes the installed daemon. macOS may ask you to approve the change or enter an administrator password.\n\nRun this before deleting ChargeLmt.app; macOS does not provide a callback when an app is deleted."
+          }
+        }
+      }
+    },
+    "一次性操作" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One-Time Actions"
+          }
+        }
+      }
+    },
+    "上限" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upper limit"
+          }
+        }
+      }
+    },
+    "下限" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lower limit"
+          }
+        }
+      }
+    },
+    "不支持" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not supported"
+          }
+        }
+      }
+    },
+    "保持" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holding"
+          }
+        }
+      }
+    },
+    "充满一次" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Once"
+          }
+        }
+      }
+    },
+    "充满一次中" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging to full"
+          }
+        }
+      }
+    },
+    "充满一次用于电池校准；放电到上限会临时关闭适配器输出。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Once is for battery calibration; discharging temporarily turns off adapter output."
+          }
+        }
+      }
+    },
+    "充电中" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging"
+          }
+        }
+      }
+    },
+    "充电中显示橙色，达到上限或暂停充电显示绿色，强制放电时关闭。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orange while charging, green when paused or at the upper limit, and off during forced discharge."
+          }
+        }
+      }
+    },
+    "充电状态" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging status"
+          }
+        }
+      }
+    },
+    "充电阈值" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Thresholds"
+          }
+        }
+      }
+    },
+    "关于" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        }
+      }
+    },
+    "删除" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        }
+      }
+    },
+    "删除 ChargeLmt.app 前请先删除后台服务；macOS 不提供 App 删除回调。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove the background service before deleting ChargeLmt.app; macOS has no app-deletion callback."
+          }
+        }
+      }
+    },
+    "删除后台服务" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove Background Service"
+          }
+        }
+      }
+    },
+    "取消" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "后台服务删除失败" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service removal failed"
+          }
+        }
+      }
+    },
+    "后台服务删除失败：%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service removal failed: %@"
+          }
+        }
+      }
+    },
+    "后台服务安装失败" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service installation failed"
+          }
+        }
+      }
+    },
+    "后台服务安装失败：%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service installation failed: %@"
+          }
+        }
+      }
+    },
+    "后台服务已启用" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service enabled"
+          }
+        }
+      }
+    },
+    "后台服务未安装" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service not installed"
+          }
+        }
+      }
+    },
+    "后台服务未连接" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background service not connected"
+          }
+        }
+      }
+    },
+    "启动与服务" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startup & Service"
+          }
+        }
+      }
+    },
+    "好" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "安装" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install"
+          }
+        }
+      }
+    },
+    "安装 ChargeLmt 后台服务" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install ChargeLmt Background Service"
+          }
+        }
+      }
+    },
+    "安装后台服务" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install Background Service"
+          }
+        }
+      }
+    },
+    "已连接" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected"
+          }
+        }
+      }
+    },
+    "应用阈值" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply Thresholds"
+          }
+        }
+      }
+    },
+    "强制放电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forced discharge"
+          }
+        }
+      }
+    },
+    "当前模式" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current mode"
+          }
+        }
+      }
+    },
+    "当前电量" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery level"
+          }
+        }
+      }
+    },
+    "打开系统设置" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open System Settings"
+          }
+        }
+      }
+    },
+    "打开项目主页" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Project Page"
+          }
+        }
+      }
+    },
+    "控制后端" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control backend"
+          }
+        }
+      }
+    },
+    "支持" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supported"
+          }
+        }
+      }
+    },
+    "放电到上限" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharge to Upper Limit"
+          }
+        }
+      }
+    },
+    "放电到上限中" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharging to upper limit"
+          }
+        }
+      }
+    },
+    "无法停止充电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to stop charging"
+          }
+        }
+      }
+    },
+    "无法启动充电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to start charging"
+          }
+        }
+      }
+    },
+    "无法启动放电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to start discharge"
+          }
+        }
+      }
+    },
+    "无法恢复充电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to resume charging"
+          }
+        }
+      }
+    },
+    "无法恢复电源适配器" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to restore the power adapter"
+          }
+        }
+      }
+    },
+    "无法读取电池状态" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to read battery status"
+          }
+        }
+      }
+    },
+    "无法连接后台服务：%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to connect to the background service: %@"
+          }
+        }
+      }
+    },
+    "无法防止系统睡眠" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to prevent system sleep"
+          }
+        }
+      }
+    },
+    "更新后台服务" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Background Service"
+          }
+        }
+      }
+    },
+    "未充电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not charging"
+          }
+        }
+      }
+    },
+    "未知" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        }
+      }
+    },
+    "未连接" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not connected"
+          }
+        }
+      }
+    },
+    "本地 daemon 已安装，但 XPC 尚未连接。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local daemon installed, but XPC is not connected yet."
+          }
+        }
+      }
+    },
+    "本地后台服务已安装，等待连接" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local background service installed, waiting for connection"
+          }
+        }
+      }
+    },
+    "检查更新" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates"
+          }
+        }
+      }
+    },
+    "正在准备安装文件..." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing installation files..."
+          }
+        }
+      }
+    },
+    "正在更新自启动设置..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updating launch-at-login setting..."
+          }
+        }
+      }
+    },
+    "此机型不支持在不拔电源的情况下强制放电" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac does not support forced discharge while the power adapter is connected"
+          }
+        }
+      }
+    },
+    "状态" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "生效：%1$lld%% · %2$@ · %3$lld%%-%4$lld%%" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active: %1$lld%% · %2$@ · %3$lld%%-%4$lld%%"
+          }
+        }
+      }
+    },
+    "电源适配器" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power adapter"
+          }
+        }
+      }
+    },
+    "登录时自动启动" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch at login"
+          }
+        }
+      }
+    },
+    "管理员卸载被取消或失败" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrator removal was canceled or failed"
+          }
+        }
+      }
+    },
+    "管理员安装失败：%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrator installation failed: %@"
+          }
+        }
+      }
+    },
+    "管理员安装被取消或失败" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrator installation was canceled or failed"
+          }
+        }
+      }
+    },
+    "自启动设置失败" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to change launch at login"
+          }
+        }
+      }
+    },
+    "自启动设置失败：%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to change launch-at-login: %@"
+          }
+        }
+      }
+    },
+    "设置" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "请在系统设置的“登录项与扩展”中允许 ChargeLmt" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow ChargeLmt in System Settings under Login Items & Extensions"
+          }
+        }
+      }
+    },
+    "达到上限停止充电，降到下限恢复充电。下限范围 50%-99%。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging stops at the upper limit and resumes at the lower limit. Lower limit: 50%-99%."
+          }
+        }
+      }
+    },
+    "退出" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit"
+          }
+        }
+      }
+    },
+    "重新安装" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reinstall"
+          }
+        }
+      }
+    },
+    "阈值已调整，尚未应用到后台服务。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thresholds changed but not applied to the background service."
+          }
+        }
+      }
+    },
+    "阈值控制" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Threshold control"
+          }
+        }
+      }
+    },
+    "需要在系统设置中批准" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Approval required in System Settings"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
